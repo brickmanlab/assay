@@ -4,6 +4,7 @@
   "owner": "Owner name",
   "processed_by": "Processed by who?",
   "genomics_path": "Genomics path smb://",
+  "codename": "Internal codename",
   "pipeline": "nf-core/rnaseq or custom",
   "organism": ["mouse", "human", "other"],
   "origin": ["internal", "external"],

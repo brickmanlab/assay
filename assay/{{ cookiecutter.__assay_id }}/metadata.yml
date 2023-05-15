@@ -1,6 +1,7 @@
 assay_id: {{ cookiecutter.__assay_id }}
 owner: {{ cookiecutter.owner }}
 date: {{ cookiecutter.date }}
+codename: {{ cookiecutter. codename }}
 pipeline: {{ cookiecutter.pipeline }}
 processed_by: {{ cookiecutter.processed_by }}
 genomics_path: {{ cookiecutter.genomics_path }}
