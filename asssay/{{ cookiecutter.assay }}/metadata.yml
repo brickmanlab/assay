@@ -1,0 +1,7 @@
+assay_id: {{ cookiecutter.assay }}
+owner: {{ cookieccuter.owner }}
+date: {{ cookieccuter.assay | split('_')[1] }}
+pipeline: {{ cookiecutter.pipeline }}
+processed_by: {{ cookiecutter.processed_by }}
+organism: {{ cookiecutter.organism }}
+origin: {{ cookiecutter.origin }}

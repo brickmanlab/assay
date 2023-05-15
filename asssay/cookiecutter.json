@@ -1,0 +1,10 @@
+{
+  "assay": "XXX_YYYYMMDD",
+  "owner": "Owner name",
+  "processed_by": "Processed by who?",
+  "pipeline": "nf-core/rnaseq or custom",
+  "organism": ["mouse", "human", "other"],
+  "origin": ["internal", "external"],
+  "short_desc": "Short description",
+  "long_desc": "Long description"
+}
