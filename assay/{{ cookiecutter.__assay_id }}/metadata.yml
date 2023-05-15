@@ -1,6 +1,6 @@
-assay_id: {{ cookiecutter.assay }}
-owner: {{ cookieccuter.owner }}
-date: {{ cookieccuter.assay | split('_')[1] }}
+assay_id: {{ cookiecutter.__assay_id }}
+owner: {{ cookiecutter.owner }}
+date: {{ cookiecutter.date }}
 pipeline: {{ cookiecutter.pipeline }}
 processed_by: {{ cookiecutter.processed_by }}
 organism: {{ cookiecutter.organism }}
