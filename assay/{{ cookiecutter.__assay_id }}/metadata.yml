@@ -3,5 +3,6 @@ owner: {{ cookiecutter.owner }}
 date: {{ cookiecutter.date }}
 pipeline: {{ cookiecutter.pipeline }}
 processed_by: {{ cookiecutter.processed_by }}
+genomics_path: {{ cookiecutter.genomics_path }}
 organism: {{ cookiecutter.organism }}
 origin: {{ cookiecutter.origin }}
