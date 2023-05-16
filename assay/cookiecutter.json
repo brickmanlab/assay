@@ -1,5 +1,5 @@
 {
-  "assay": ["CHIP", "RNA", "ATAC", "SCR", "PROT"],
+  "assay": ["CHIP", "RNA", "ATAC", "SCR", "PROT", "CAT", "CAR", "RIME"],
   "date": "YYYYMMDD",
   "owner": "Owner name",
   "processed_by": "Processed by who?",
