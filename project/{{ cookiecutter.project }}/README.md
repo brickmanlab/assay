@@ -1,6 +1,6 @@
 ---
 title: {{cookiecutter.project}}
-date: {{ cookiecutter.date }}
+date: "{{ cookiecutter.date }}"
 author: {{ cookiecutter.author }}
 ---
 
