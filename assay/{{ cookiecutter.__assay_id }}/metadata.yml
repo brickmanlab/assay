@@ -9,8 +9,8 @@ n_samples: {{ cookiecutter.n_samples }}
 is_paired: {{ cookiecutter.is_paired }}
 pipeline: {{ cookiecutter.pipeline }}
 processed_by: {{ cookiecutter.processed_by }}
-genomics_path: {{ cookiecutter.genomics_path }}
 organism: {{ cookiecutter.organism }}
+organism_version: {{ cookiecutter.organism_version }}
 organism_subgroup: {{ cookiecutter.organism_subgroup }}
 origin: {{ cookiecutter.origin }}
 genomics_path: {{ cookiecutter.genomics_path }}
