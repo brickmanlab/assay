@@ -4,7 +4,7 @@
   "date": "YYYYMMDD",
   "owner": "Owner name",
   "processed_by": "Processed by who?",
-  "codename": "Internal codename",
+  "codename": "",
   "sequencer": "NovaSeq 5000",
   "seq_kit": "H75",
   "n_samples": 1,
@@ -17,5 +17,6 @@
   "genomics_path": "Genomics path smb://",
   "short_desc": "Short description",
   "long_desc": "Long description",
+  "note": "",
   "__assay_id": "{{ cookiecutter.assay }}_{{ cookiecutter.date }}"
 }

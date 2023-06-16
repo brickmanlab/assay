@@ -13,4 +13,5 @@ organism: {{ cookiecutter.organism }}
 organism_version: {{ cookiecutter.organism_version }}
 organism_subgroup: {{ cookiecutter.organism_subgroup }}
 origin: {{ cookiecutter.origin }}
+note: {{ cookiecutter.note }}
 genomics_path: {{ cookiecutter.genomics_path }}
