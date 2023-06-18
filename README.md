@@ -6,11 +6,19 @@ For more info please read out [RDM guidelines](https://brickmanlab.github.io/wik
 ## Creating `Assay`
 
 ```bash
-cookiecutter https://github.com/brickmanlab/ngs-template --directory="assay"
+module load miniconda/latest
+source activate brickman
+
+cd /home/$USER/Brickman/assays
+cruft create https://github.com/brickmanlab/ngs-template --directory="assay"
 ```
 
-## Creaing `Project`
+## Creating `Project`
 
 ```bash
-cookiecutter https://github.com/brickmanlab/ngs-template --directory="project"
+module load miniconda/latest
+source activate brickman
+
+cd /home/$USER/Brickman/projects
+cruft create https://github.com/brickmanlab/ngs-template --directory="project"
 ```
