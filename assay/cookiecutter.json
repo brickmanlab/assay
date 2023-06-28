@@ -1,5 +1,5 @@
 {
-  "assay": ["CHIP", "RNA", "ATAC", "SCR", "PROT", "CAT", "CAR", "RIME"],
+  "assay": ["CHIP", "RNA", "ATAC", "SCR", "PROT", "CAT", "CAR", "RIME", "TAP"],
   "technology": "10x Genomics",
   "date": "YYYYMMDD",
   "owner": "Owner name",
