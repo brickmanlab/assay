@@ -1,0 +1,1 @@
+short_desc: {{ cookiecutter.description }}
