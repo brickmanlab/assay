@@ -1,8 +1,14 @@
 {
-  "project": "surname-et-al-2023",
+  "project": "",
   "_not_rendered": "{{ cookiecutter.project.lower().replace(' ', '_') }}",
-  "author": "Your name",
+  "author": "",
   "date": "{% now 'utc', '%Y%m%d' %}",
-  "_extensions": ["jinja2_time.TimeExtension"],
-  "description": "A short description of the project."
+  "description": "",
+  "__prompts__": {
+    "project": "Project directory name [Example: Lundregan_short_description_2023]",
+    "author": "Who owns the project?",
+    "date": "Date of project creation, leave blank to use today's date",
+    "description": "Provide a detailed description of the project"
+  },
+  "_extensions": ["jinja2_time.TimeExtension"]
 }
