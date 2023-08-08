@@ -1,7 +1,8 @@
 assay_id: {{ cookiecutter.__assay_id }}
 owner: {{ cookiecutter.owner }}
 date: {{ cookiecutter.date }}
-codename: {{ cookiecutter. codename }}
+codename: {{ cookiecutter.codename }}
+eln_id: {{ cookiecutter.eln_id }}
 technology: {{ cookiecutter.technology }}
 sequencer: {{ cookiecutter.sequencer }}
 seq_kit: {{ cookiecutter.seq_kit }}

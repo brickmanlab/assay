@@ -8,7 +8,7 @@ BRICKMAN_ROOT = "/maps/projects/dan1/data/Brickman"
 
 if __name__ == "__main__":
     project_path = (
-        Path(BRICKMAN_ROOT) / Path("projects") / Path("{{ cookiecutter.project }}")
+        Path(BRICKMAN_ROOT) / Path("projects") / Path("{{ cookiecutter.__project_name }}")
     )
 
     # Mandatory description field

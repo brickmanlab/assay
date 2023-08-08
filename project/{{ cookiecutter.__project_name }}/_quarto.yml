@@ -15,7 +15,7 @@ format:
 number-sections: true
 
 website:
-  title: {{cookiecutter.project}}
+  title: {{ cookiecutter.__project_name }}
   sidebar:
     style: "docked"
     search: true

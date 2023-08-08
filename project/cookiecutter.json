@@ -1,6 +1,6 @@
 {
   "project": "",
-  "_not_rendered": "{{ cookiecutter.project.lower().replace(' ', '_') }}",
+  "__project_name": "{{ cookiecutter.project|lower|replace(' ', '_') }}",
   "author": "",
   "date": "{% now 'utc', '%Y%m%d' %}",
   "description": "",
