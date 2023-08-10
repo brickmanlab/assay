@@ -1,4 +1,5 @@
 assay_id: {{ cookiecutter.__assay_id }}
+assay: {{ cookiecutter.assay }}
 owner: {{ cookiecutter.owner }}
 date: {{ cookiecutter.date }}
 codename: {{ cookiecutter.codename }}

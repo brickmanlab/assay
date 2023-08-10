@@ -5,7 +5,7 @@
   "date": "{% now 'utc', '%Y%m%d' %}",
   "description": "",
   "__prompts__": {
-    "project": "Project directory name [Example: Lundregan_short_description_2023]",
+    "project": "Project directory name [Example: lundregan_short_description_2023]",
     "author": "Who owns the project?",
     "date": "Date of project creation, leave blank to use today's date",
     "description": "Provide a detailed description of the project"
