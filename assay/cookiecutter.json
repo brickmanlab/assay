@@ -1,5 +1,5 @@
 {
-  "assay": ["CHIP", "RNA", "ATAC", "SCR", "PROT", "CAT", "CAR", "RIME", "TAP"],
+  "assay": ["ATAC", "CAR", "CAT", "CHIP", "PRIME", "PROT", "RIME", "RNA", "SCR", "TAP"],
   "technology": "",
   "date": "{% now 'utc', '%Y%m%d' %}",
   "owner": "",
@@ -23,15 +23,16 @@
   "__prompts__": {
     "assay": {
         "__prompt__": "What kind of NGS was used in your experiment?",
-        "CHIP": "Bulk CHIP-seq",
-        "RNA": "Bulk RNA-seq",
         "ATAC": "Bulk ATAC-seq",
-        "SCR": "Single Cell RNA sequencing",
-        "PROT": "Proteomics",
         "CAT": "Cut&Tag",
         "CAR": "Cut&Run",
+        "CHIP": "Bulk CHIP-seq",
+        "PRIME": "PRIME-seq",
+        "RNA": "Bulk RNA-seq",
+        "PROT": "Proteomics",
         "RIME": "Rapid immunoprecipitation mass spectrometry of endogenous proteins",
-        "TAP": "TAPseq"
+        "TAP": "TAPseq",
+        "SCR": "Single Cell RNA sequencing"
     },
     "technology": "What technology was used? [Example: 10X Genomics if you used SCR]",
     "date": "Date of sequencing, should be the same as defined by Genomics Platform in YYYYMMDD format!",
