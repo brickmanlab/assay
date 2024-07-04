@@ -46,7 +46,7 @@
     "pipeline": "Pipeline name [Example: nf-core/rnaseq or custom]",
     "organism": "What organism is this?",
     "organism_version": "Which version of genome was used?",
-    "origin": "Is this internal experiment of external (collaborator/publication)?",
+    "origin": "Is this internal experiment or external (collaborator/publication)?",
     "genomics_path": "Full path to Genomics folder of the experiment smb://",
     "short_desc": "Provide a short summary of the experiment",
     "long_desc": "Provide a longer description of the experiment",
