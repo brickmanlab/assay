@@ -12,7 +12,7 @@
   "is_paired": ["single-end", "paired-end"],
   "pipeline": "",
   "organism": ["mouse", "human", "mouse,human", "other"],
-  "organism_version": ["mm10", "hg38", "mm10,hg38"],
+  "organism_version": ["mm10", "hg38", "mm10,hg38", "other"],
   "organism_subgroup": ["in vivo", "in vitro"],
   "origin": ["internal", "external"],
   "genomics_path": "",
