@@ -32,11 +32,12 @@ if __name__ == "__main__":
         print("Fixing permissions, please wait ...")
         assay_path.chmod(0o775)
 
-        # Copy files from CPR
-        print("Dont forget to copy the FASTQ files!")
-        print(
-            f"rsync -avzh --progress --chmod=2775 {cpr_path}/*.fastq.gz {assay_path.resolve()}/raw/fastq/"
-        )
+        if "{{ cookiecutter.genomics_path }}" != "":
+            # Copy files from CPR
+            print("Dont forget to copy the FASTQ files!")
+            print(
+                f"rsync -avzh --progress --chmod=2775 {cpr_path}/*.fastq.gz {assay_path.resolve()}/raw/fastq/"
+            )
 
     except Exception as e:
         print(f"[bold red]{e}[/bold red]")
