@@ -1,4 +1,5 @@
 {
+  "__schema_version": "1.0",
   "assay": ["ATAC", "CAR", "CAT", "CHIP", "PRIME", "PROT", "RIME", "RNA", "SCR", "TAP"],
   "technology": "",
   "date": "{% now 'utc', '%Y%m%d' %}",
