@@ -1,3 +1,4 @@
+schema_version: {{ cookiecutter.__schema_version }}
 assay_id: {{ cookiecutter.__assay_id }}
 assay: {{ cookiecutter.assay }}
 owner: {{ cookiecutter.owner }}
