@@ -5,13 +5,11 @@ from pathlib import Path
 from cookiecutter.main import cookiecutter
 from rich import print
 
-BRICKMAN_ROOT = "/maps/projects/dan1/data/Brickman"
+BRICKMAN_ROOT = Path("/maps/projects/dan1/data/Brickman")
 CPR_ROOT = "smb:/unicph.domain/groupdir/SUN-CPR-genomics_data/"
 
 if __name__ == "__main__":
-    assay_path = (
-        Path(BRICKMAN_ROOT) / Path("assays") / Path("{{ cookiecutter.__assay_id }}")
-    )
+    assay_path = BRICKMAN_ROOT / "assays" / "{{ cookiecutter.__assay_id }}"
     cpr_path = "~/ucph/ndir/SUN-CPR-genomics_data/"
     cpr_path += (
         Path("{{ cookiecutter.genomics_path }}").as_posix().replace(CPR_ROOT, "")
@@ -43,8 +41,8 @@ if __name__ == "__main__":
         initdb_script = assay_path / "initdb.py"
         subprocess.run(
             [
-                "/projects/dan1/data/Brickman/conda/envs/brickman/bin/python",
-                initdb_script.as_posix(),
+                "/projects/dan1/data/Brickman/conda/envs/ngs_catalogue/bin/python",
+                initdb_script.resolve(),
             ]
         )
         initdb_script.unlink()
