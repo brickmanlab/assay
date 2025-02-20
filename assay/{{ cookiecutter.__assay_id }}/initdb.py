@@ -76,8 +76,8 @@ def get_schema_columns(version: str):
     WHITELIST = ["__prompts__", "_extensions"]
     URL = "https://raw.githubusercontent.com/brickmanlab/ngs-template/master/assay/cookiecutter.json"
 
-    res_body = fetch(URL)
-    data = json.loads(res_body.decode("utf-8"))
+    schema = fetch(URL)
+    data = json.loads(schema)
 
     if data["__schema_version"] != version:
         raise ValueError(
