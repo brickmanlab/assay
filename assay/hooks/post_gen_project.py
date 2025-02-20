@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import subprocess
 from pathlib import Path
 
 from cookiecutter.main import cookiecutter
@@ -38,6 +39,10 @@ if __name__ == "__main__":
             print(
                 f"rsync -avzh --progress --chmod=2775 {cpr_path}/*.fastq.gz {assay_path.resolve()}/raw/fastq/"
             )
+
+        subprocess.run(
+            ["/projects/dan1/data/Brickman/conda/envs/brickman/bin/python", "initdb.py"]
+        )
 
     except Exception as e:
         print(f"[bold red]{e}[/bold red]")
