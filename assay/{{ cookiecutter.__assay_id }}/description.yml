@@ -1,2 +1,2 @@
-short_desc: {{ cookiecutter.short_desc }}
-long_desc: {{ cookiecutter.long_desc }}
+short_desc: "{{ cookiecutter.short_desc }}"
+long_desc: "{{ cookiecutter.long_desc }}"
