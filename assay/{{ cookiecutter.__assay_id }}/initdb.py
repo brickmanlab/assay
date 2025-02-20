@@ -65,7 +65,7 @@ def get_assays() -> pd.DataFrame:
                 assays[key].update(content)
             else:
                 assays[key] = content
-    except yaml.scanner.ScannerError as ex:
+    except (yaml.reader.ReaderError, yaml.scanner.ScannerError) as ex:
         logging.error(f"Problem with parsing {meta_file}")
         logging.exception(ex)
 
