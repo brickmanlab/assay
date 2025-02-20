@@ -40,9 +40,14 @@ if __name__ == "__main__":
                 f"rsync -avzh --progress --chmod=2775 {cpr_path}/*.fastq.gz {assay_path.resolve()}/raw/fastq/"
             )
 
+        initdb_script = assay_path / "initdb.py"
         subprocess.run(
-            ["/projects/dan1/data/Brickman/conda/envs/brickman/bin/python", "initdb.py"]
+            [
+                "/projects/dan1/data/Brickman/conda/envs/brickman/bin/python",
+                initdb_script.as_posix(),
+            ]
         )
+        initdb_script.unlink()
 
     except Exception as e:
         print(f"[bold red]{e}[/bold red]")
